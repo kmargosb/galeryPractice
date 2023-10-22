@@ -31,28 +31,72 @@ header{
 .section1{
     margin-bottom: 5px;
 }
-
+.img-title{
+    text-align: center;
+    font-size: 1.6rem;
+}
 .imageContent{
     width: 300px;
     height: 400px;
 }
 .img-content1{
-    background-image: url(./assets/gallery_photo_1.avif);
+    width: 100%;
+    height: 100%;
+    background: url(./assets/gallery_photo_1.avif);
     background-size: cover;
-       
+    background-repeat: no-repeat;
+    background-position: bottom;    
 }
 .img-content2{
-    background: url(./assets/gallery_photo_2.avif);
+    width: 100%;
+    height: 100%;
+    background: url(./assets/gallery_photo_2.avif); 
+    background-position: top right -125px;   
 }
 .img-content3{
+    width: 100%;
+    height: 100%;
     background: url(./assets/gallery_photo_3.avif);
+    background-size: cover;
+    background-position: -40px;
 }
 .img-content4{
+    width: 100%;
+    height: 100%;
     background: url(./assets/gallery_photo_4.avif);
+    background-size: 50%;
 }
 .img-content5{
+    width: 100%;
+    height: 100%;
     background: url(./assets/gallery_photo_5.avif);
+    background-position: bottom right;
 }
 .img-content6{
+    width: 100%;
+    height: 100%;
     background: url(./assets/gallery_photo_6.avif);
+    background-size: cover;
+}
+
+.buy{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;    
+}
+.btn{
+    visibility: hidden;
+}
+span{
+    font-size: 1.3rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 30px;
+    color: #37BF56;
+    border: 2px solid #37BF56;
+    border-radius: 6px;
 }
